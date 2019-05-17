@@ -1,0 +1,90 @@
+﻿<html>
+<head>
+<title>Podstawy CSS</title>
+<style>
+h1 { 
+  color: red; 
+  background-color:black; 
+}
+p {
+  font-size:200%;
+}
+
+h2 {
+  font-family: sans-serif;
+}
+
+.naglowek {
+  color: green;
+  background: linear-gradient(white,yellow);
+}
+
+[title] {
+  text-decoration: underline overline;
+}
+
+p span {
+  color:blue;
+}
+
+
+div span {
+  color:green;
+}
+
+p span span {
+   color:brown;
+}
+
+div>span {
+  color:pink;
+}
+h1,h2,h3, .abc, #ziom, h1 a span {
+  text-decoration:line-through;
+}
+
+#naglowek-poziom3{
+  color: white;
+  background: red;
+}
+</style>
+</head>
+<body>
+<h1 style="text-decoration:underline;">Podstawy CSS</h1>
+<h1>Drugi naglowek h1</h1>
+<h1>Trzeci</h1>
+
+<h2 class="naglowek">Naglowek h2 z klasą</h2>
+<h2 class="naglowek">Kolejny Naglowek h2 z klasą</h2>
+
+<h3 id="naglowek-poziom3">Naglowek LVL 3</h3>
+
+<p title="wazny akapit ktory cos wywietla">Akapit 1 </p>
+<p>Akapit 2 </p>
+<p title="rowniez wazny akapit">Akapit 3 </p>
+
+
+<p>asdasdf</p>
+
+
+<p>
+  <span>Inny tekst</span> Reszta tekstu.
+</p>
+<span>Element span bez p</span>
+
+
+<p>
+  <span>Inny tekst 
+    <span class="inniejszy">i inniejszy</span>
+  </span> Reszta tekstu.
+</p>
+<div>
+<span>Rozowy span</span>
+<div>
+<p>
+<span>Jestem glebokim spanem</p>
+</div></div></div>
+
+
+</body>
+</html>
